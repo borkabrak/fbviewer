@@ -1,0 +1,18 @@
+FITBIT API Registration Info
+============================
+Client (Consumer) Key
+93bdb3ad2b4f4d52b393b0793f8d9439
+OAuth 2.0 Client ID
+229HCG
+Client (Consumer) Secret
+f2d67b95805240a38631fcec451528de
+OAuth 1.0a: Temporary Credentials (Request Token) URL
+https://api.fitbit.com/oauth/request_token
+OAuth 1.0a: Token Credentials (Access Token) URL
+https://api.fitbit.com/oauth/access_token
+OAuth 1.0a: Authorize URL
+https://www.fitbit.com/oauth/authorize
+OAuth 2.0: Authorization URI
+https://www.fitbit.com/oauth2/authorize
+OAuth 2.0: Access/Refresh Token Request URI
+https://api.fitbit.com/oauth2/token

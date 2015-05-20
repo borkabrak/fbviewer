@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+require 'sinatra'
+require 'erb'
+
+def index(content)
+    @content = content
+    erb :index
+end
+get '/' do
+    index("Fitbit data viewer")
+end
