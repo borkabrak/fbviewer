@@ -1,11 +1,15 @@
 #!/usr/bin/env ruby
 require 'sinatra'
 require 'erb'
+require 'fitgem'
 
-def index(content)
-    @content = content
+# export the binding, and declare ERB.new
+def index(context)
+    # Build the whole page by wrapping the content in all the auxilliary HTML
+    @content = erb :content
     erb :index
 end
+
 get '/' do
-    index("Fitbit data viewer")
+    index(title: "Fitbit data viewer")
 end
